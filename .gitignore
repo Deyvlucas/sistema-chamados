@@ -1,2 +1,4 @@
 node_modules
 .env
+# Ignorar dados do banco MongoDB
+data/
