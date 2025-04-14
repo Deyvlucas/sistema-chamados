@@ -67,7 +67,9 @@ const DashboardUser = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-4">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold">Painel do Usuário</h1>
+        <h1 className="text-2xl font-bold">
+          Bem vindo "Adicionar nome do usuario"
+        </h1>
         <button
           onClick={handleLogout}
           className="bg-red-500 text-white px-4 py-2 rounded"
@@ -80,7 +82,9 @@ const DashboardUser = () => {
         onSubmit={handleSubmit}
         className="bg-white p-4 rounded shadow mb-6"
       >
-        <h2 className="text-xl font-semibold mb-2">Abrir Chamado</h2>
+        <h2 className="text-xl font-semibold mb-2">
+          Formulario para abertura do chamado
+        </h2>
 
         <input
           type="text"
