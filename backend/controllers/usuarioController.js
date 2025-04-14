@@ -24,6 +24,7 @@ exports.registrarUsuario = async (req, res) => {
       nome,
       email,
       senha: senhaHash,
+      isAdmin: true,
     });
 
     const token = criarToken(novoUsuario._id, novoUsuario.isAdmin);
