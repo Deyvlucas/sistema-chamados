@@ -11,6 +11,7 @@ app.use(express.json()); // ESSENCIAL para funcionar com JSON
 // Rotas
 app.use("/api/usuarios", require("./routes/usuarioRoutes"));
 app.use("/api/ordens", require("./routes/ordemRoutes"));
+
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => {
